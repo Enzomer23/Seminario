@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inscripción a Mesa de Examen</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+        <h1>Bienvenido a la Página de EPET N°3</h1>
+        <h2>Completa el formulario</h2>
+        <h2>Luego, según sea tu necesidad</h2>
+        <h2>Haz clic en cada opcion disponible</h2>
+        <form action="" method="">
+            <div class="section-inputs"></div>
+            <div>
+                <label for="name">
+                    <span>Nombre</span>
+                    <input type="text" id="name" name="name" required />
+                </label>
+                </div>
+                
+                <div>
+                <label for="surname">
+                    <span>Apellido</span>
+                    <input type="text" id="surname" name="surname" required/>
+                </label>
+                <br>
+                <label for="DNI">
+                    <span>DNI</span>
+                    <input type="number" id="DNI" name="DNI" required/>
+                </label>
+                </div><div>
+                <label for="both">
+                    <span>Fecha de Nacimiento</span>
+                    <input type="date" id="both" name="both" required/>
+                </label>
+                <br>
+                <label for="phone">
+                    <span>Numero de telefono</span>
+                    <input type="tel" id="phone" name="phone" required/>
+                </label>
+            </div>
+            <div>
+                <span>Selecciona un formulario</span>
+                <p><select name="curso">
+                    <option value="anual">Inscripción anual</option>
+                    <option value="mesas">Inscripción a mesas de examen</option>
+                    <option value="reincorporacion">Reincorporación</option>
+                </select></p>
+                <span>Curso</span>
+                <p><select name="curso">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                </select></p>
+                <span>Materia</span>
+                <p><select name="materia">
+                    <option value="matematica">Matemática</option>
+                    <option value="lengua">Lengua</option>
+                    <option value="educacionfisica">Ed. Física</option>
+                    <option value="plastica">Plástica</option>
+                    <option value="ingles">Inglés</option>
+                    <option value="quimica">Química</option>
+                    <option value="fisica">Física</option>
+                </select></p>
+                <span>Fecha de la mesa</span>
+                <p><select name="mesa">
+                    <option value="febrero">Febrero</option>
+                    <option value="julio">Julio</option>
+                    <option value="diciembre">Diciembre</option>
+                    <option value="extraordinaria">Extraordinaria</option>
+                </select></p>
+            </div>
+            <label for="email">
+                <span>Email</span>
+                <input type="email" id="email" name="email" required />
+                <span>Borrar o enviar</span>
+                <p><input type="reset" value="Borrar Todo" />
+                <p><input type="submit" value="Enviar" /> 
+        </form>
+    </div>
+</body>
+</html>
