@@ -1,0 +1,146 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+    display: table;
+  width: 100%;
+  background: linear-gradient(rgba(182, 77, 77, 0.5), rgba(180, 162, 88, 0.156));
+  background-position: center top;
+  height: 350px;
+}
+
+.navegacion{
+  height: 17vh;
+  width: 100%;
+  background-color: rgba(169, 169, 169, 0.849);
+  background-position: center;
+  border-radius: 15px;
+}
+
+nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 40px;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+nav ul li{
+  list-style-type: none;
+  display: inline-block;
+  padding: 10px 20px;
+
+}
+
+nav ul li a{
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav ul li a:hover{
+  color: rgb(225, 245, 220);
+  transition: .3s;
+}
+
+.tituloprincipal{
+  background-color: #37a0297a;
+  text-align: center;
+  height: 55px;
+  border-radius: 5px;
+}
+
+.h5carrusel{
+  color: rgb(253, 246, 246);
+  background-color: rgba(0, 0, 0, 0.386);
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.pcarrusel{
+  color: rgb(253, 246, 246);
+  background-color: rgba(0, 0, 0, 0.386);
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.h4reseña{
+  padding: 10px;
+  text-align: center;
+  background-color: #37a0297a;
+  border-radius: 7px;
+}
+
+.preseña{
+  padding: 15px;
+  background-color: rgba(255, 127, 80, 0.37);
+  border-radius: 20px;
+}
+
+.h4calendario{
+  padding: 10px;
+  text-align: center;
+  background-color: #37a0297a;
+  border-radius: 7px;
+}
+
+.img-fluid{
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: auto;
+}
+
+.h4campus{
+    padding: 10px;
+    text-align: center;
+    background-color: #37a0297a;
+    border-radius: 7px;
+}
+
+.pcampus{
+  padding: 15px;
+  background-color: rgba(255, 127, 80, 0.37);
+  border-radius: 20px;
+  text-align: center;
+}
+
+.h4biblioteca{
+  padding: 10px;
+  text-align: center;
+  background-color: #37a0297a;
+  border-radius: 7px;
+}
+
+.pbiblioteca{
+padding: 15px;
+background-color: rgba(255, 127, 80, 0.37);
+border-radius: 20px;
+text-align: center;
+}
+
+.row-g-3{
+  margin: 15px;
+  padding: 15px;
+}
+
+.form-label{
+width: 100%;
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: rgba(255, 127, 80, 0.37);
+  color: rgb(38, 43, 119);
+  display: block;
+  border-radius: 10px;
+}
+
+.card-body{
+  background-color: rgba(226, 236, 165, 0.418);
+}
